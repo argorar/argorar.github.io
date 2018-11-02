@@ -5,7 +5,7 @@ var $nav = $('nav');
 
 
 
-// toggle menu 
+// toggle menu
 $header_top.find('a').on('click', function() {
   $(this).parent().toggleClass('open-menu');
 });
@@ -19,7 +19,7 @@ $('#fullpage').fullpage({
   navigation: true,
   slidesNavigation: true,
   controlArrows: false,
-  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
+  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixthSection', 'seventhSection'],
   menu: '#menu',
 
   afterLoad: function(anchorLink, index) {
@@ -60,5 +60,5 @@ $('#fullpage').fullpage({
       $header_top.css('background', 'rgba(0, 47, 77, .3)');
       $nav.css('background', 'rgba(0, 47, 77, .25)');
     }
-  } 
+  }
 });

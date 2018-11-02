@@ -42,7 +42,7 @@
 }
 
 .icon-up-open-big:hover:after {
-	color: white;	
+	color: white;
 }
 
 .scroll-icon {
@@ -254,7 +254,7 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 .justify {
 	text-align: justify;
 }
- 
+
 .pull-right {
 	padding-right: 7%;
 	float: right;
@@ -312,12 +312,37 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
   opacity: 1;
   right: 0;
 }
-/* SECTION STYLES - fullPage.js 
+
+.fa {
+  padding: 15px 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+/* SECTION STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-section { 
+section {
 	text-align: center;
-  
+
 }
 
 h2 {
@@ -338,7 +363,7 @@ h3 {
 	color: #BCBCBC;
 }
 
-#header h2 {	
+#header h2 {
 	font-weight: 900;
 	font-size: 70px;
 	letter-spacing: 5px;
@@ -362,7 +387,7 @@ color: #444141;
 	color: #e9e9e9;
 }
 
-#dark h2 {	
+#dark h2 {
 	font-size: 24px;
 }
 
@@ -372,7 +397,7 @@ color: #444141;
 
 #network {
 	background: #6d6c6c;
-	color: #e9e9e9;	
+	color: #e9e9e9;
 }
 
 #network p {
@@ -386,7 +411,7 @@ color: #444141;
 
 #crai {
 	background: #205b34;
-	color: #e9e9e9;	
+	color: #e9e9e9;
 }
 
 #crai h2 {
@@ -398,10 +423,30 @@ color: #444141;
 	font-size: 22px;
 }
 
-/* SLIDENAV STYLES - fullPage.js 
+#alarm {
+	background: #271a0c;
+	color: #e9e9e9;
+}
+
+#alarm p {
+	color: #e9e9e9;
+	font-size: 21px;
+}
+
+#berman{
+  background: #1a0600;
+  color: #e9e9e9;
+}
+
+#berman p {
+	color: #e9e9e9;
+	font-size: 22px;
+}
+
+/* SLIDENAV STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#fp-nav ul li a span, 
+#fp-nav ul li a span,
 .fp-slidesNav ul li a span {
 	background: white;
 	width: 8px;
@@ -409,9 +454,9 @@ color: #444141;
 	margin: -4px 0 0 -4px;
 }
 
-#fp-nav ul li a.active span, 
-.fp-slidesNav ul li a.active span, 
-#fp-nav ul li:hover a.active span, 
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span {
 	width: 16px;
 	height: 16px;
@@ -434,11 +479,11 @@ color: #444141;
 	nav li {
 		margin-top: 1px;
 	}
-  
+
   nav li a {
     font-size: 1.5em;
   }
-  
+
   .scroll-icon {
     display: none;
   }
@@ -448,7 +493,7 @@ color: #444141;
   html {
     font-size: 50%;
   }
-  
+
   .open-menu ~ nav {
 		padding: 20px 0;
 	}
