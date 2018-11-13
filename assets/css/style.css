@@ -379,16 +379,12 @@ color: #444141;
 
 #about p {
 	color: #737373;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 #dark {
 	background: #2A2A2A;
 	color: #e9e9e9;
-}
-
-#dark h2 {
-	font-size: 24px;
 }
 
 #dark p {
@@ -402,20 +398,12 @@ color: #444141;
 
 #network p {
 	color: #e9e9e9;
-	font-size: 20px;
-}
-
-#network h2 {
-	font-size: 24px;
+	font-size: 22px;
 }
 
 #crai {
 	background: #205b34;
 	color: #e9e9e9;
-}
-
-#crai h2 {
-	font-size: 24px;
 }
 
 #crai p {
