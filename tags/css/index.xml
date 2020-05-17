@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>CSS - Etiqueta - Sebastián Λ</title>
+        <link>https://argorar.github.io/tags/css/</link>
+        <description>CSS - Etiqueta - Sebastián Λ</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 17 May 2020 11:20:07 -0500</lastBuildDate><atom:link href="https://argorar.github.io/tags/css/" rel="self" type="application/rss+xml" /><item>
+    <title>Deep Dark</title>
+    <link>https://argorar.github.io/deep-dark/</link>
+    <pubDate>Sun, 17 May 2020 11:20:07 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/deep-dark/</guid>
+    <description><![CDATA[
+<p>Deep Dark is a flat theme with transparent elements for GTK 3 and Gnome-Shell which supports GTK 3 based desktop environments like Gnome.</p>]]></description>
+</item></channel>
+</rss>

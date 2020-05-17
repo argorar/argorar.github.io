@@ -1,0 +1,54 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Todo Artículos - Sebastián Λ</title>
+        <link>https://argorar.github.io/posts/</link>
+        <description>Todo Artículos | Sebastián Λ</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 17 May 2020 12:01:53 -0500</lastBuildDate><atom:link href="https://argorar.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Northwind Crud</title>
+    <link>https://argorar.github.io/northwind-crud/</link>
+    <pubDate>Sun, 17 May 2020 12:01:53 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/northwind-crud/</guid>
+    <description><![CDATA[<p>CRUD for Northwind DB, Web API (ASP.NET) made on C# and Front End on Angular.<br>
+This project is a demonstration of several technologies.</p>]]></description>
+</item><item>
+    <title>Download Image</title>
+    <link>https://argorar.github.io/download-image/</link>
+    <pubDate>Sun, 17 May 2020 11:46:27 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/download-image/</guid>
+    <description><![CDATA[
+<p>Script that adds a button that allows you to easily download images from pages like Discord, Reddit and Imgur. Formats support .jpg, .jpeg, .jpe, .gif, .png.</p>]]></description>
+</item><item>
+    <title>Cordic Graph</title>
+    <link>https://argorar.github.io/cordic-graph/</link>
+    <pubDate>Sun, 17 May 2020 11:35:23 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/cordic-graph/</guid>
+    <description><![CDATA[What is the CORDIC algorithm? CORDIC (for Cordinate Rotation Digital Computer),also known as Volder&rsquo;s algorithm, is a simple and efficient algorithm to calculate hyperbolic and trigonometric functions, typically converging with one digit (or bit) per iteration. It is therefore also a prominent example of digit-by-digit algorithms. CORDIC and closely related methods known as pseudo-multiplication and pseudo-division or factor combining are commonly used when no hardware multiplier is available (e.g. in simple microcontrollers and FPGAs), as the only operations it requires are addition, subtraction, bitshift and table lookup.]]></description>
+</item><item>
+    <title>Deep Dark</title>
+    <link>https://argorar.github.io/deep-dark/</link>
+    <pubDate>Sun, 17 May 2020 11:20:07 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/deep-dark/</guid>
+    <description><![CDATA[
+<p>Deep Dark is a flat theme with transparent elements for GTK 3 and Gnome-Shell which supports GTK 3 based desktop environments like Gnome.</p>]]></description>
+</item><item>
+    <title>Network Watcher</title>
+    <link>https://argorar.github.io/network-watcher/</link>
+    <pubDate>Sun, 17 May 2020 11:10:54 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/network-watcher/</guid>
+    <description><![CDATA[
+<p>Multiplatform application that scans the local network identifying host and which ports it has open, also verifies services such as HTTP, SMTP and FTP.</p>]]></description>
+</item><item>
+    <title>Imperia Scripts</title>
+    <link>https://argorar.github.io/imperia-scripts/</link>
+    <pubDate>Sun, 17 May 2020 09:08:55 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/imperia-scripts/</guid>
+    <description><![CDATA[
+<p>Imperia Online es un juego de estrategia en tiempo real persistente, basado en el navegador, multijugador masivo en línea desarrollado por la compañía búlgara de producción de juegos Imperia Online JSC. Ambientado en un mundo medieval, Imperia Online es un juego de estrategia predominantemente militarista.</p>]]></description>
+</item></channel>
+</rss>

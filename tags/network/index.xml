@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Network - Etiqueta - Sebastián Λ</title>
+        <link>https://argorar.github.io/tags/network/</link>
+        <description>Network - Etiqueta - Sebastián Λ</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 17 May 2020 11:10:54 -0500</lastBuildDate><atom:link href="https://argorar.github.io/tags/network/" rel="self" type="application/rss+xml" /><item>
+    <title>Network Watcher</title>
+    <link>https://argorar.github.io/network-watcher/</link>
+    <pubDate>Sun, 17 May 2020 11:10:54 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/network-watcher/</guid>
+    <description><![CDATA[
+<p>Multiplatform application that scans the local network identifying host and which ports it has open, also verifies services such as HTTP, SMTP and FTP.</p>]]></description>
+</item></channel>
+</rss>

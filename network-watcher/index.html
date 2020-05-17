@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Network Watcher - Sebastián Λ</title><meta name="Description" content="Página personal"><meta property="og:title" content="Network Watcher" />
+<meta property="og:description" content="
+Multiplatform application that scans the local network identifying host and which ports it has open, also verifies services such as HTTP, SMTP and FTP." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://argorar.github.io/network-watcher/" />
+<meta property="og:image" content="https://argorar.github.io/logo.png"/>
+<meta property="article:published_time" content="2020-05-17T11:10:54-05:00" />
+<meta property="article:modified_time" content="2020-05-17T11:10:54-05:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://argorar.github.io/logo.png"/>
+
+<meta name="twitter:title" content="Network Watcher"/>
+<meta name="twitter:description" content="
+Multiplatform application that scans the local network identifying host and which ports it has open, also verifies services such as HTTP, SMTP and FTP."/>
+<meta name="application-name" content="Sebastián Λ">
+<meta name="apple-mobile-web-app-title" content="Sebastián Λ"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/avatar.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://argorar.github.io/network-watcher/" /><link rel="prev" href="https://argorar.github.io/imperia-scripts/" /><link rel="next" href="https://argorar.github.io/deep-dark/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Network Watcher",
+        "inLanguage": "es",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/argorar.github.io\/network-watcher\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/argorar.github.io\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "Software, Network","wordcount":  373 ,
+        "url": "https:\/\/argorar.github.io\/network-watcher\/","datePublished": "2020-05-17T11:10:54-05:00","dateModified": "2020-05-17T11:10:54-05:00","publisher": {
+                "@type": "Organization",
+                "name": "xxxx",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/argorar.github.io\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Sebastián Λ"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Sebastián Λ">Sebastián Λ</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Sebastián Λ">Sebastián Λ</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenido</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Network Watcher</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sebastián Λ</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-05-17>2020-05-17</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;unas 373 palabras&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;2 min&nbsp;</div>
+        </div><div class="details toc" id="toc-static">
+                <div class="details-summary toc-title">
+                    <span>Contenido</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#select-network-interface">Select Network Interface</a></li>
+    <li><a href="#graphic-interface">Graphic Interface</a></li>
+    <li><a href="#subnet-information">Subnet Information</a></li>
+    <li><a href="#port-analysis">Port Analysis</a></li>
+    <li><a href="#service-analysis">Service Analysis</a></li>
+    <li><a href="#terminal-mode">Terminal Mode</a>
+      <ul>
+        <li><a href="#scan">Scan</a></li>
+        <li><a href="#services-scan">Services Scan</a></li>
+        <li><a href="#ports-scan">Ports Scan</a></li>
+        <li><a href="#info-network">Info Network</a></li>
+      </ul>
+    </li>
+    <li><a href="#summary-ports">Summary Ports</a></li>
+    <li><a href="#javadoc">Javadoc</a></li>
+    <li><a href="#license">License</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><img src="https://argorar.github.io/Network-Watcher/img/network.png" alt="Logo" align="right"/>
+<p>Multiplatform application that scans the local network identifying host and which ports it has open, also verifies services such as HTTP, SMTP and FTP.</p>
+<p><a href="https://www.codacy.com/app/argorar/Network-Watcher?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=argorar/Network-Watcher&amp;utm_campaign=badger" target="_blank" rel="noopener noreffer"><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="https://api.codacy.com/project/badge/Grade/7c70ceeb054a478ab6dc0ed8b3329b05"
+        data-srcset="https://api.codacy.com/project/badge/Grade/7c70ceeb054a478ab6dc0ed8b3329b05, https://api.codacy.com/project/badge/Grade/7c70ceeb054a478ab6dc0ed8b3329b05 1.5x, https://api.codacy.com/project/badge/Grade/7c70ceeb054a478ab6dc0ed8b3329b05 2x"
+        data-sizes="auto"
+        alt="Codacy Badge"
+        title="Codacy Badge" /></a></p>
+<h2 id="select-network-interface">Select Network Interface</h2>
+<p>Now you can select the network Interface when the application is starting and change it when you need it from the option file &gt; switchNi menu.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/ni.png"
+        data-srcset="/Network-Watcher/img/ni.png, /Network-Watcher/img/ni.png 1.5x, /Network-Watcher/img/ni.png 2x"
+        data-sizes="auto"
+        alt="ni"
+        title="ni" /></p>
+<h2 id="graphic-interface">Graphic Interface</h2>
+<p>The graphical interface has options at the top.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/gui.png"
+        data-srcset="/Network-Watcher/img/gui.png, /Network-Watcher/img/gui.png 1.5x, /Network-Watcher/img/gui.png 2x"
+        data-sizes="auto"
+        alt="gui"
+        title="gui" /></p>
+<h2 id="subnet-information">Subnet Information</h2>
+<p>You can see the subnet information in the file|About menu.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/about.png"
+        data-srcset="/Network-Watcher/img/about.png, /Network-Watcher/img/about.png 1.5x, /Network-Watcher/img/about.png 2x"
+        data-sizes="auto"
+        alt="about"
+        title="about" /></p>
+<h2 id="port-analysis">Port Analysis</h2>
+<p>You can see all the ports open.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/ports.png"
+        data-srcset="/Network-Watcher/img/ports.png, /Network-Watcher/img/ports.png 1.5x, /Network-Watcher/img/ports.png 2x"
+        data-sizes="auto"
+        alt="about"
+        title="about" /></p>
+<h2 id="service-analysis">Service Analysis</h2>
+<p>You can check the port for services such as HTTP, SMTP and FTP. It does not matter if they are in ports other than the default..</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/services.png"
+        data-srcset="/Network-Watcher/img/services.png, /Network-Watcher/img/services.png 1.5x, /Network-Watcher/img/services.png 2x"
+        data-sizes="auto"
+        alt="about"
+        title="about" /></p>
+<h2 id="terminal-mode">Terminal Mode</h2>
+<p>Below you will find sample images of the operation by means of the terminal.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/help.png"
+        data-srcset="/Network-Watcher/img/help.png, /Network-Watcher/img/help.png 1.5x, /Network-Watcher/img/help.png 2x"
+        data-sizes="auto"
+        alt="help"
+        title="help" /></p>
+<h3 id="scan">Scan</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/scant.png"
+        data-srcset="/Network-Watcher/img/scant.png, /Network-Watcher/img/scant.png 1.5x, /Network-Watcher/img/scant.png 2x"
+        data-sizes="auto"
+        alt="scant"
+        title="scant" /></p>
+<h3 id="services-scan">Services Scan</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/servicesT.png"
+        data-srcset="/Network-Watcher/img/servicesT.png, /Network-Watcher/img/servicesT.png 1.5x, /Network-Watcher/img/servicesT.png 2x"
+        data-sizes="auto"
+        alt="servicesT"
+        title="servicesT" /></p>
+<h3 id="ports-scan">Ports Scan</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/portsT.png"
+        data-srcset="/Network-Watcher/img/portsT.png, /Network-Watcher/img/portsT.png 1.5x, /Network-Watcher/img/portsT.png 2x"
+        data-sizes="auto"
+        alt="portsT"
+        title="portsT" /></p>
+<h3 id="info-network">Info Network</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Network-Watcher/img/networkt.png"
+        data-srcset="/Network-Watcher/img/networkt.png, /Network-Watcher/img/networkt.png 1.5x, /Network-Watcher/img/networkt.png 2x"
+        data-sizes="auto"
+        alt="networkt"
+        title="networkt" /></p>
+<h2 id="summary-ports">Summary Ports</h2>
+<p>Below is a list of the most common ports with a brief description.</p>
+<table>
+<thead>
+<tr>
+<th>Port</th>
+<th>Name</th>
+<th>Info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20</td>
+<td>FTP Data</td>
+<td>File Transfer Protocol (FTP) data transfer</td>
+</tr>
+<tr>
+<td>21</td>
+<td>FTP</td>
+<td>File Transfer Protocol (FTP) control (command)</td>
+</tr>
+<tr>
+<td>22</td>
+<td>SSH</td>
+<td>Secure Shell (SSH), secure logins, file transfers (scp, sftp) and port forwarding</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Telnet</td>
+<td>Telnet protocol—unencrypted text communications</td>
+</tr>
+<tr>
+<td>25</td>
+<td>SMTP</td>
+<td>Simple Mail Transfer Protocol, used for email routing between mail servers</td>
+</tr>
+<tr>
+<td>53</td>
+<td>DNS</td>
+<td>Domain Name System (DNS)</td>
+</tr>
+<tr>
+<td>59</td>
+<td>DCC</td>
+<td>Direct Client-to-Client IRC software</td>
+</tr>
+<tr>
+<td>79</td>
+<td>Finger</td>
+<td>Info about users</td>
+</tr>
+<tr>
+<td>80</td>
+<td>HTTP</td>
+<td>Hypertext Transfer Protocol</td>
+</tr>
+<tr>
+<td>110</td>
+<td>POP3</td>
+<td>Post Office Protocol, version 3</td>
+</tr>
+<tr>
+<td>113</td>
+<td>IDENT</td>
+<td>Ident, authentication service/identification protocol, used by IRC servers to identify users</td>
+</tr>
+<tr>
+<td>119</td>
+<td>NNTP</td>
+<td>Network News Transfer Protocol, retrieval of newsgroup messages</td>
+</tr>
+<tr>
+<td>135</td>
+<td>NetBIOS</td>
+<td>Service used to remotely manage services including DHCP server, DNS server and WINS</td>
+</tr>
+<tr>
+<td>139</td>
+<td>NETBIOS</td>
+<td>NetBIOS Session Service</td>
+</tr>
+<tr>
+<td>143</td>
+<td>IMAP</td>
+<td>Internet Message Access Protocol, management of electronic mail messages on a serve</td>
+</tr>
+<tr>
+<td>389</td>
+<td>LDAP</td>
+<td>Lightweight Directory Access Protocol</td>
+</tr>
+<tr>
+<td>443</td>
+<td>HTTPS</td>
+<td>Hypertext Transfer Protocol over TLS/SSL</td>
+</tr>
+<tr>
+<td>445</td>
+<td>MSFT DS</td>
+<td>Microsoft-DS Active Directory, Windows shares</td>
+</tr>
+<tr>
+<td>563</td>
+<td>POP3 SSL</td>
+<td>NNTP over TLS/SSL</td>
+</tr>
+<tr>
+<td>993</td>
+<td>IMAP4 SSL</td>
+<td>Internet Message Access Protocol over TLS/SSL</td>
+</tr>
+<tr>
+<td>995</td>
+<td>POP3 SSL</td>
+<td>Post Office Protocol 3 over TLS/SSL</td>
+</tr>
+<tr>
+<td>1080</td>
+<td>Proxy</td>
+<td>SOCKS proxy</td>
+</tr>
+<tr>
+<td>1723</td>
+<td>PPTP</td>
+<td>Point-to-Point Tunneling Protocol</td>
+</tr>
+<tr>
+<td>3306</td>
+<td>MySQL</td>
+<td>MySQL database system</td>
+</tr>
+<tr>
+<td>5000</td>
+<td>UPnP</td>
+<td>Universal Plug&rsquo;n&rsquo;Play</td>
+</tr>
+<tr>
+<td>8080</td>
+<td>Proxy Web</td>
+<td>Alternative port for HTTP</td>
+</tr>
+</tbody>
+</table>
+<h2 id="javadoc">Javadoc</h2>
+<p>You can check the javadoc <a href="https://argorar.github.io/Network-Watcher/doc/index.html" target="_blank" rel="noopener noreffer">here</a>.</p>
+<h2 id="license">License</h2>
+<p><a href="LICENSE" rel="">GPL v3</a>.</p>
+<blockquote>
+<p><strong>Note:</strong></p>
+<ul>
+<li><a href="https://www.iconfinder.com/webhostingmedia" target="_blank" rel="noopener noreffer">Author icon</a>.</li>
+</ul>
+</blockquote>
+<p><a href="https://github.com/argorar/Network-Watcher" target="_blank" rel="noopener noreffer">Repository</a></p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>El artículo fue actualizado el 2020-05-17</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/network-watcher/index.md" target="_blank">Leer Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Compartir en Twitter" data-sharer="twitter" data-url="https://argorar.github.io/network-watcher/" data-title="Network Watcher" data-hashtags="Software,Network"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Facebook" data-sharer="facebook" data-url="https://argorar.github.io/network-watcher/" data-hashtag="Software"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en WhatsApp" data-sharer="whatsapp" data-url="https://argorar.github.io/network-watcher/" data-title="Network Watcher" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Line" data-sharer="line" data-url="https://argorar.github.io/network-watcher/" data-title="Network Watcher"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="Compartir en 微博" data-sharer="weibo" data-url="https://argorar.github.io/network-watcher/" data-title="Network Watcher"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Myspace" data-sharer="myspace" data-url="https://argorar.github.io/network-watcher/" data-title="Network Watcher" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Compartir en Blogger" data-sharer="blogger" data-url="https://argorar.github.io/network-watcher/" data-title="Network Watcher" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Evernote" data-sharer="evernote" data-url="https://argorar.github.io/network-watcher/" data-title="Network Watcher"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/software/">Software</a>,&nbsp;<a href="/tags/network/">Network</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Regresar</a></span>&nbsp;|&nbsp;<span><a href="/">Inicio</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/imperia-scripts/" class="prev" rel="prev" title="Imperia Scripts"><i class="fas fa-angle-left fa-fw"></i>Imperia Scripts</a>
+            <a href="/deep-dark/" class="next" rel="next" title="Deep Dark">Deep Dark<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"De acuerdo","link":"Aprende más","message":"Este sitio web utiliza Cookies para mejorar su experiencia."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

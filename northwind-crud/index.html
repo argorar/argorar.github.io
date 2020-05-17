@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Northwind Crud - Sebastián Λ</title><meta name="Description" content="Página personal"><meta property="og:title" content="Northwind Crud" />
+<meta property="og:description" content="CRUD for Northwind DB, Web API (ASP.NET) made on C# and Front End on Angular.
+This project is a demonstration of several technologies." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://argorar.github.io/northwind-crud/" />
+<meta property="og:image" content="https://argorar.github.io/logo.png"/>
+<meta property="article:published_time" content="2020-05-17T12:01:53-05:00" />
+<meta property="article:modified_time" content="2020-05-17T12:01:53-05:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://argorar.github.io/logo.png"/>
+
+<meta name="twitter:title" content="Northwind Crud"/>
+<meta name="twitter:description" content="CRUD for Northwind DB, Web API (ASP.NET) made on C# and Front End on Angular.
+This project is a demonstration of several technologies."/>
+<meta name="application-name" content="Sebastián Λ">
+<meta name="apple-mobile-web-app-title" content="Sebastián Λ"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/avatar.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://argorar.github.io/northwind-crud/" /><link rel="prev" href="https://argorar.github.io/download-image/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Northwind Crud",
+        "inLanguage": "es",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/argorar.github.io\/northwind-crud\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/argorar.github.io\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "Software, Angular","wordcount":  190 ,
+        "url": "https:\/\/argorar.github.io\/northwind-crud\/","datePublished": "2020-05-17T12:01:53-05:00","dateModified": "2020-05-17T12:01:53-05:00","publisher": {
+                "@type": "Organization",
+                "name": "xxxx",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/argorar.github.io\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Sebastián Λ"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Sebastián Λ">Sebastián Λ</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Sebastián Λ">Sebastián Λ</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenido</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Northwind Crud</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sebastián Λ</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-05-17>2020-05-17</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;unas 190 palabras&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;1 min&nbsp;</div>
+        </div><div class="details toc" id="toc-static">
+                <div class="details-summary toc-title">
+                    <span>Contenido</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#entity-framework">Entity Framework</a></li>
+    <li><a href="#aspnet-web-api">ASP.NET Web API</a></li>
+    <li><a href="#angular">Angular</a>
+      <ul>
+        <li><a href="#web-interface">Web Interface</a>
+          <ul>
+            <li><a href="#screenshots">ScreenShots</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>CRUD for Northwind DB, Web API (ASP.NET) made on C# and Front End on Angular.<br>
+This project is a demonstration of several technologies.</p>
+<ul>
+<li><a href="#entity-framework" rel="">Entity Framework database-firts</a></li>
+<li><a href="#asp.net-web-api" rel="">ASP.NET Web API</a></li>
+<li><a href="#angular" rel="">Angular</a>
+<ul>
+<li><a href="#web-interface" rel="">Web Interface</a>
+<ul>
+<li><a href="#screenshots" rel="">ScreenShots</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="entity-framework">Entity Framework</h2>
+<p>Entity Framework is an Object Relational Mapper (ORM) which is a type of tool that simplifies mapping between objects in your software to the tables and columns of a relational database. Entity Framework (EF) is an open source ORM framework for ADO.NET which is a part of .NET Framework.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Northwind-CRUD/img/database-First.jpg"
+        data-srcset="/Northwind-CRUD/img/database-First.jpg, /Northwind-CRUD/img/database-First.jpg 1.5x, /Northwind-CRUD/img/database-First.jpg 2x"
+        data-sizes="auto"
+        alt="database-firts"
+        title="database-firts" /></p>
+<h2 id="aspnet-web-api">ASP.NET Web API</h2>
+<p>ASP.NET makes it easy to build services that reach a broad range of clients, including browsers and mobile devices. With ASP.NET you use the same framework and patterns to build both web pages and services, side-by-side in the same project.</p>
+<h2 id="angular">Angular</h2>
+<p>Angular is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop.</p>
+<h3 id="web-interface">Web Interface</h3>
+<p>The web interface was made on the open source project <a href="https://akveo.github.io/ngx-admin/" target="_blank" rel="noopener noreffer">ngx-admin</a>.</p>
+<h4 id="screenshots">ScreenShots</h4>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Northwind-CRUD/img/1.JPG"
+        data-srcset="/Northwind-CRUD/img/1.JPG, /Northwind-CRUD/img/1.JPG 1.5x, /Northwind-CRUD/img/1.JPG 2x"
+        data-sizes="auto"
+        alt="1"
+        title="1" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Northwind-CRUD/img/2.JPG"
+        data-srcset="/Northwind-CRUD/img/2.JPG, /Northwind-CRUD/img/2.JPG 1.5x, /Northwind-CRUD/img/2.JPG 2x"
+        data-sizes="auto"
+        alt="2"
+        title="2" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Northwind-CRUD/img/3.JPG"
+        data-srcset="/Northwind-CRUD/img/3.JPG, /Northwind-CRUD/img/3.JPG 1.5x, /Northwind-CRUD/img/3.JPG 2x"
+        data-sizes="auto"
+        alt="3"
+        title="3" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/Northwind-CRUD/img/4.JPG"
+        data-srcset="/Northwind-CRUD/img/4.JPG, /Northwind-CRUD/img/4.JPG 1.5x, /Northwind-CRUD/img/4.JPG 2x"
+        data-sizes="auto"
+        alt="4"
+        title="4" /></p>
+<p><a href="https://github.com/argorar/Northwind-CRUD" target="_blank" rel="noopener noreffer">Repository</a></p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>El artículo fue actualizado el 2020-05-17</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/northwind-crud/index.md" target="_blank">Leer Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Compartir en Twitter" data-sharer="twitter" data-url="https://argorar.github.io/northwind-crud/" data-title="Northwind Crud" data-hashtags="Software,Angular"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Facebook" data-sharer="facebook" data-url="https://argorar.github.io/northwind-crud/" data-hashtag="Software"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en WhatsApp" data-sharer="whatsapp" data-url="https://argorar.github.io/northwind-crud/" data-title="Northwind Crud" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Line" data-sharer="line" data-url="https://argorar.github.io/northwind-crud/" data-title="Northwind Crud"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="Compartir en 微博" data-sharer="weibo" data-url="https://argorar.github.io/northwind-crud/" data-title="Northwind Crud"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Myspace" data-sharer="myspace" data-url="https://argorar.github.io/northwind-crud/" data-title="Northwind Crud" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Compartir en Blogger" data-sharer="blogger" data-url="https://argorar.github.io/northwind-crud/" data-title="Northwind Crud" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Evernote" data-sharer="evernote" data-url="https://argorar.github.io/northwind-crud/" data-title="Northwind Crud"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/software/">Software</a>,&nbsp;<a href="/tags/angular/">Angular</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Regresar</a></span>&nbsp;|&nbsp;<span><a href="/">Inicio</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/download-image/" class="prev" rel="prev" title="Download Image"><i class="fas fa-angle-left fa-fw"></i>Download Image</a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"De acuerdo","link":"Aprende más","message":"Este sitio web utiliza Cookies para mejorar su experiencia."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

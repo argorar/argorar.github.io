@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Scripts - Etiqueta - Sebastián Λ</title>
+        <link>https://argorar.github.io/tags/scripts/</link>
+        <description>Scripts - Etiqueta - Sebastián Λ</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 17 May 2020 11:46:27 -0500</lastBuildDate><atom:link href="https://argorar.github.io/tags/scripts/" rel="self" type="application/rss+xml" /><item>
+    <title>Download Image</title>
+    <link>https://argorar.github.io/download-image/</link>
+    <pubDate>Sun, 17 May 2020 11:46:27 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/download-image/</guid>
+    <description><![CDATA[
+<p>Script that adds a button that allows you to easily download images from pages like Discord, Reddit and Imgur. Formats support .jpg, .jpeg, .jpe, .gif, .png.</p>]]></description>
+</item><item>
+    <title>Imperia Scripts</title>
+    <link>https://argorar.github.io/imperia-scripts/</link>
+    <pubDate>Sun, 17 May 2020 09:08:55 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/imperia-scripts/</guid>
+    <description><![CDATA[
+<p>Imperia Online es un juego de estrategia en tiempo real persistente, basado en el navegador, multijugador masivo en línea desarrollado por la compañía búlgara de producción de juegos Imperia Online JSC. Ambientado en un mundo medieval, Imperia Online es un juego de estrategia predominantemente militarista.</p>]]></description>
+</item></channel>
+</rss>
