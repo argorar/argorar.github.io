@@ -3,7 +3,15 @@
         <title>Software - Etiqueta - Sebastián Λ</title>
         <link>https://argorar.github.io/tags/software/</link>
         <description>Software - Etiqueta - Sebastián Λ</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 17 May 2020 12:01:53 -0500</lastBuildDate><atom:link href="https://argorar.github.io/tags/software/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Mon, 05 Oct 2020 12:01:53 -0500</lastBuildDate><atom:link href="https://argorar.github.io/tags/software/" rel="self" type="application/rss+xml" /><item>
+    <title>WebMConverter</title>
+    <link>https://argorar.github.io/webm-converter/</link>
+    <pubDate>Mon, 05 Oct 2020 12:01:53 -0500</pubDate>
+    <author>Autor</author>
+    <guid>https://argorar.github.io/webm-converter/</guid>
+    <description><![CDATA[<h1 id="webm-for-lazys">WebM for Lazys</h1>
+<p>A wrapper around ffmpeg and AviSynth made for converting videos to WebM without having to use the command line and Gfycat integration.</p>]]></description>
+</item><item>
     <title>Northwind Crud</title>
     <link>https://argorar.github.io/northwind-crud/</link>
     <pubDate>Sun, 17 May 2020 12:01:53 -0500</pubDate>
