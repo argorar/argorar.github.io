@@ -1,4 +1,4 @@
-# Download Image
+# Dowi - Download Image
 
 <img src="/images/Downloads-icon.png" alt="Logo" height="100px" align="right"/>
 

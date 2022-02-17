@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>WebM for Lazys - Sebastián Λ</title><meta name="Description" content="Página personal"><meta property="og:title" content="WebM for Lazys" />
+        <title>WebM for Lazys - Sebastián Λ</title><meta name="Description" content="Personal page"><meta property="og:title" content="WebM for Lazys" />
 <meta property="og:description" content="A wrapper around ffmpeg and AviSynth made for converting videos to WebM without having to use the command line and Gfycat integration." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://argorar.github.io/webm-converter/" />
@@ -23,7 +23,7 @@
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "headline": "WebM for Lazys",
-        "inLanguage": "es",
+        "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/argorar.github.io\/webm-converter\/"
@@ -32,7 +32,7 @@
                 "url": "https:\/\/argorar.github.io\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "Software","wordcount":  206 ,
+            },"genre": "posts","keywords": "Software","wordcount":  799 ,
         "url": "https:\/\/argorar.github.io\/webm-converter\/","datePublished": "2020-10-05T12:01:53-05:00","dateModified": "2020-10-05T12:01:53-05:00","publisher": {
                 "@type": "Organization",
                 "name": "xxxx",
@@ -56,7 +56,7 @@
             <a href="/" title="Sebastián Λ">Sebastián Λ</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -72,7 +72,7 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -85,81 +85,308 @@
 </div>
 <main class="main">
                 <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">Contenido</h2>
+            <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">WebM for Lazys</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sebastián Λ</a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-10-05>2020-10-05</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;unas 206 palabras&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;1 min&nbsp;</div>
+                <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;about 799 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;4 min&nbsp;</div>
         </div><div class="details toc" id="toc-static">
                 <div class="details-summary toc-title">
-                    <span>Contenido</span>
+                    <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#about-webm">About WebM</a></li>
+    <li><a href="#benefits-of-webm">Benefits of WebM</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#updates">Updates</a></li>
+    <li><a href="#what-can-i-do">What can i do?</a>
       <ul>
-        <li><a href="#changelog">Changelog</a>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#trim">Trim</a></li>
+        <li><a href="#crop">Crop</a></li>
+        <li><a href="#dynamic-crop">Dynamic Crop</a>
           <ul>
-            <li><a href="#version-300">Version 3.0.0</a></li>
-            <li><a href="#version-310">Version 3.1.0</a></li>
-            <li><a href="#version-320">Version 3.2.0</a></li>
+            <li><a href="#tutorial">Tutorial</a></li>
+            <li><a href="#final-result">Final result</a></li>
           </ul>
         </li>
+        <li><a href="#filter">Filter</a></li>
+        <li><a href="#caption">Caption</a></li>
+        <li><a href="#rotate">Rotate</a></li>
+        <li><a href="#loop">Loop</a></li>
+        <li><a href="#stabilization">Stabilization</a></li>
+        <li><a href="#merge">Merge</a></li>
+        <li><a href="#there-is-more-that-you-can-do">There is More that you can do</a></li>
+        <li><a href="#upload-to-gfycat">Upload to Gfycat</a></li>
+        <li><a href="#shortcut-keys">Shortcut keys</a></li>
       </ul>
     </li>
+    <li><a href="#license">License</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>A wrapper around ffmpeg and AviSynth made for converting videos to WebM without having to use the command line and Gfycat integration.</p>
-<p><a href="https://gitgud.io/nixx/WebMConverter#webm-for-retards-" target="_blank" rel="noopener noreffer">Original project</a>.</p>
+<p><a href="https://www.codacy.com/gh/argorar/WebMConverter/dashboard?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=argorar/WebMConverter&amp;amp;utm_campaign=Badge_Grade" target="_blank" rel="noopener noreffer"><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="https://app.codacy.com/project/badge/Grade/ab09accc7a9c478badac99fed7ca52cf"
+        data-srcset="https://app.codacy.com/project/badge/Grade/ab09accc7a9c478badac99fed7ca52cf, https://app.codacy.com/project/badge/Grade/ab09accc7a9c478badac99fed7ca52cf 1.5x, https://app.codacy.com/project/badge/Grade/ab09accc7a9c478badac99fed7ca52cf 2x"
+        data-sizes="auto"
+        alt="Codacy Badge"
+        title="Codacy Badge" /></a>
+<a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreffer"><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="https://img.shields.io/badge/License-MIT-yellow.svg"
+        data-srcset="https://img.shields.io/badge/License-MIT-yellow.svg, https://img.shields.io/badge/License-MIT-yellow.svg 1.5x, https://img.shields.io/badge/License-MIT-yellow.svg 2x"
+        data-sizes="auto"
+        alt="License: MIT"
+        title="License: MIT" /></a>
+<a href="" rel=""><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="https://img.shields.io/github/downloads/argorar/WebMConverter/total.svg"
+        data-srcset="https://img.shields.io/github/downloads/argorar/WebMConverter/total.svg, https://img.shields.io/github/downloads/argorar/WebMConverter/total.svg 1.5x, https://img.shields.io/github/downloads/argorar/WebMConverter/total.svg 2x"
+        data-sizes="auto"
+        alt="Downloads"
+        title="Downloads" /></a>
+<a href="" rel=""><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="https://tokei.rs/b1/github/argorar/WebMConverter"
+        data-srcset="https://tokei.rs/b1/github/argorar/WebMConverter, https://tokei.rs/b1/github/argorar/WebMConverter 1.5x, https://tokei.rs/b1/github/argorar/WebMConverter 2x"
+        data-sizes="auto"
+        alt="CodeLines"
+        title="CodeLines" /></a></p>
 <ul>
 <li><strong>Download it <a href="https://github.com/argorar/WebMConverter/releases/latest" target="_blank" rel="noopener noreffer">here</a>.</strong></li>
 </ul>
-<p>Important to know:</p>
+<p><em>Important to know:</em></p>
 <ul>
 <li>Requires .NET Framework 4.5 (Windows 7 comes with 3.5, so you might want to <a href="https://www.microsoft.com/en-us/download/details.aspx?id=30653" target="_blank" rel="noopener noreffer">update</a>)</li>
+<li>Requires Microsoft Visual C++ 2010 (x86) [Download here][MVC]</li>
 <li>Requires <a href="http://avisynth.nl/index.php/Main_Page#Official_builds" target="_blank" rel="noopener noreffer">AviSynth</a> (2.6.0, 32-bit)</li>
 <li>Already includes ffmpeg</li>
-<li>Only works on Windows (I assume Linux users don&rsquo;t need GUIs)</li>
+<li>Only works on Windows</li>
 </ul>
-<h3 id="changelog">Changelog</h3>
-<h4 id="version-300">Version 3.0.0</h4>
+<h2 id="about-webm">About WebM</h2>
+<p>WebM is an open, royalty-free, media file format designed for the web.
+WebM defines the file container structure, video and audio formats. WebM files consist of video streams compressed with the VP8 or VP9 video codecs and audio streams compressed with the Vorbis or Opus audio codecs. The WebM file structure is based on the Matroska container.</p>
+<p>For more information about WebM, see the [FAQ][FAQ].</p>
+<h2 id="benefits-of-webm">Benefits of WebM</h2>
 <ul>
-<li>Fixed laggy trim functionality (with 4k files is a still a little slower)</li>
-<li>Now you can use Space key to play 100 frames in trim functionality</li>
-<li>Set the exact % value in change rate functionality</li>
-<li>Now your settings are remembered</li>
-<li>Gfycat integration using browser-based OAuth authentication. Upload your gfy after convert with one click</li>
-</ul>
-<h4 id="version-310">Version 3.1.0</h4>
+<li>
+<p><em>Openness and innovation</em>. A key factor in the web&rsquo;s success is that its core technologies such as HTML, HTTP, and TCP/IP are open for anyone to implement and improve.  With video being core to the web experience, a high-quality, open video format choice is needed. WebM is 100% free, and open-sourced under a BSD-style license.</p>
+</li>
+<li>
+<p><em>Optimized for the web</em>. Serving video on the web is different from traditional broadcast and offline mediums. Existing video formats were designed to serve the needs of these mediums and do it very well. WebM is focused on addressing the unique needs of serving video on the web.</p>
 <ul>
-<li>Added option to interpolate frames in Advanced/Encoding</li>
-<li>Improved trim lag going forward with 4k videos</li>
+<li>
+<p>Low computational footprint to enable playback on any device, including low-power netbooks, handhelds, tablets, etc</p>
+</li>
+<li>
+<p>Simple container format</p>
+</li>
+<li>
+<p>Highest quality real-time video delivery</p>
+</li>
+<li>
+<p>Click and encode. Minimal codec profiles and sub-options. When possible, let the encoder make the tough choices.</p>
+</li>
 </ul>
-<h4 id="version-320">Version 3.2.0</h4>
+</li>
+</ul>
+<h1 id="webm-for-lazys-features">WebM for Lazys features</h1>
+<h2 id="updates">Updates</h2>
+<p>Get the last update with just one click.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/update.JPG"
+        data-srcset="/WebMConverter/img/update.JPG, /WebMConverter/img/update.JPG 1.5x, /WebMConverter/img/update.JPG 2x"
+        data-sizes="auto"
+        alt="update"
+        title="update" /></p>
+<h2 id="what-can-i-do">What can i do?</h2>
+<p>You can get and edit your video easly with the next options.</p>
+<h3 id="download">Download</h3>
+<p>Paste the url of the video you want and press enter, the download will start. You will get the best quality.</p>
 <ul>
-<li>Now you can set when you want your caption to start and end</li>
-<li>In caption form you can advance frame by frame changing <em>start frame</em> value. You can use mouse wheel too</li>
-<li>Changed algorithm to interpolate</li>
-<li>Now the update feature is enabled</li>
+<li>Support for [+1000 sites][Sites]</li>
+<li>You can choose the default path for all your new videos</li>
+<li>Load the new video in the app with just one click</li>
 </ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/download.JPG"
+        data-srcset="/WebMConverter/img/download.JPG, /WebMConverter/img/download.JPG 1.5x, /WebMConverter/img/download.JPG 2x"
+        data-sizes="auto"
+        alt="download"
+        title="download" /></p>
+<h3 id="trim">Trim</h3>
+<p>Trim precisely the length, with a simple interface. You can do multiple trims if you need.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/trim.JPG"
+        data-srcset="/WebMConverter/img/trim.JPG, /WebMConverter/img/trim.JPG 1.5x, /WebMConverter/img/trim.JPG 2x"
+        data-sizes="auto"
+        alt="trim"
+        title="trim" /></p>
+<h3 id="crop">Crop</h3>
+<p>Crop what is just important for you, you can see in real time the new resolution also you can set the exact size that you want. Just move the edges with the mouse or use the keys to select the area.</p>
+<ul>
+<li><code>Row keys</code> to move</li>
+<li><code>Shift + Row keys</code> to move faster</li>
+<li><code>Alt + Row Keys</code> to increase/decrease the size</li>
+<li><code>Ctrl + Right or Left</code> to change preview</li>
+<li>You can use mouse wheel over time line</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/crop.JPG"
+        data-srcset="/WebMConverter/img/crop.JPG, /WebMConverter/img/crop.JPG 1.5x, /WebMConverter/img/crop.JPG 2x"
+        data-sizes="auto"
+        alt="crop"
+        title="crop" /></p>
+<h3 id="dynamic-crop">Dynamic Crop</h3>
+<p>Follow an object on the canvas easly. Steps for a correct workflow:</p>
+<ol>
+<li>
+<p>Use trim to define the clip lenght</p>
+</li>
+<li>
+<p>Open Crop filter and define the crop size, use <code>New resolution</code> as guide. <strong>Even numbers are required</strong>. You can use <code>Set dimensions</code> for exact values
+<img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/newResolution.png"
+        data-srcset="/WebMConverter/img/newResolution.png, /WebMConverter/img/newResolution.png 1.5x, /WebMConverter/img/newResolution.png 2x"
+        data-sizes="auto"
+        alt="new resolution"
+        title="new resolution" />
+<img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/setDimensions.png"
+        data-srcset="/WebMConverter/img/setDimensions.png, /WebMConverter/img/setDimensions.png 1.5x, /WebMConverter/img/setDimensions.png 2x"
+        data-sizes="auto"
+        alt="set dimensions"
+        title="set dimensions" /></p>
+</li>
+<li>
+<p>Select click <code>Dynamic Crop</code>. When it is actived will be green which means that each movement will be registered
+<img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/dynamicCrop.png"
+        data-srcset="/WebMConverter/img/dynamicCrop.png, /WebMConverter/img/dynamicCrop.png 1.5x, /WebMConverter/img/dynamicCrop.png 2x"
+        data-sizes="auto"
+        alt="dynamicCrop"
+        title="dynamicCrop" /></p>
+</li>
+<li>
+<p>Set stabilitation level on <code>Advanced&gt;Processing</code> to get a smooth effect</p>
+</li>
+</ol>
+<h4 id="tutorial">Tutorial</h4>
+<p>For this example the edition requires 30 seconds. 
+<video style="width:100%" controls src="https://giant.gfycat.com/AridComplexKawala.mp4" type="video/mp4" autoplay loop></video></p>
+<p><a href="https://gfycat.com/AridComplexKawala" target="_blank" rel="noopener noreffer">External link</a></p>
+<h4 id="final-result">Final result</h4>
+<p>Right side was processed  with dynamic crop.
+<video style="width:100%" controls src="https://giant.gfycat.com/WeeklyEmptyDalmatian.mp4" type="video/mp4" autoplay loop></video></p>
+<p><a href="https://gfycat.com/WeeklyEmptyDalmatian" target="_blank" rel="noopener noreffer">External link</a></p>
+<h3 id="filter">Filter</h3>
+<p>If your video looks dark, you can try with some pre-set filters. Now you can create your own filter using <em>Advanced</em> option, change gamma, contrast and saturation.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/light.JPG"
+        data-srcset="/WebMConverter/img/light.JPG, /WebMConverter/img/light.JPG 1.5x, /WebMConverter/img/light.JPG 2x"
+        data-sizes="auto"
+        alt="filter"
+        title="filter" /></p>
+<h3 id="caption">Caption</h3>
+<p>Add text, change font, size, position, also set when it start and end.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/caption.JPG"
+        data-srcset="/WebMConverter/img/caption.JPG, /WebMConverter/img/caption.JPG 1.5x, /WebMConverter/img/caption.JPG 2x"
+        data-sizes="auto"
+        alt="caption"
+        title="caption" /></p>
+<h3 id="rotate">Rotate</h3>
+<p>Rotate your video to any direction with just one click.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/WebMConverter/img/rotate.JPG"
+        data-srcset="/WebMConverter/img/rotate.JPG, /WebMConverter/img/rotate.JPG 1.5x, /WebMConverter/img/rotate.JPG 2x"
+        data-sizes="auto"
+        alt="rotate"
+        title="rotate" /></p>
+<h3 id="loop">Loop</h3>
+<p>Loop function, forward and reverse making an infinite effect. You <em>can&rsquo;t</em> use filter or interpolation with it.
+<video style="width:100%" controls src="https://giant.gfycat.com/AnimatedUnimportantAlligatorsnappingturtle.mp4" type="video/mp4" autoplay loop></video></p>
+<p><a href="https://gfycat.com/AnimatedUnimportantAlligatorsnappingturtle" target="_blank" rel="noopener noreffer">External link</a></p>
+<h3 id="stabilization">Stabilization</h3>
+<p>Use different levels of stabilization for your clip. Left side original, right side processed. Find it in Advanced&gt;Processing.</p>
+<p><video style="width:100%" controls src="https://giant.gfycat.com/DentalAnchoredHedgehog.mp4" type="video/mp4" autoplay loop></video></p>
+<p><a href="https://gfycat.com/DentalAnchoredHedgehog" target="_blank" rel="noopener noreffer">External link</a></p>
+<h3 id="merge">Merge</h3>
+<p>Drag and drop video files inside the application, search for the new video in source path. <em>The group of videos must have the same encodes / dimensions</em>.</p>
+<h3 id="there-is-more-that-you-can-do">There is More that you can do</h3>
+<ul>
+<li>Export frames</li>
+<li>Add subtitle</li>
+<li>Resize</li>
+<li>Reverse</li>
+<li>Overlay your logo</li>
+<li>Change the speed</li>
+<li>Fade</li>
+<li>Disable audio</li>
+<li>Delay audio</li>
+<li>Get specific filesize in final result</li>
+<li>Get high quality video in webm and mp4 format</li>
+<li>Interpolate, more frames to your video</li>
+<li>Deinterlace</li>
+</ul>
+<h3 id="upload-to-gfycat">Upload to Gfycat</h3>
+<p>Upload your new masterpiece with just one click. <em>A Gfycat account is required.</em>
+See user details in tab <em>General</em>. If you are creating several gfys of the same topic, tags can be usefull for you.</p>
+<h3 id="shortcut-keys">Shortcut keys</h3>
+<ul>
+<li>Trim: <code>Alt + t</code></li>
+<li>MultiTrim: <code>Alt + Shift + t</code></li>
+<li>Crop: <code>Alt + c</code></li>
+<li>Change Rate: <code>Alt + Shift + c</code></li>
+</ul>
+<h2 id="license">License</h2>
 <p>This software is released under the MIT license. See LICENSE.md .</p>
-<p>If you have any issues with this program, you may report them on <a href="https://github.com/argorar/WebMConverter/issues" target="_blank" rel="noopener noreffer">here</a>.</p></div><div class="post-footer" id="post-footer">
+<p>If you have any issues with this program, you may report them on <a href="https://github.com/argorar/WebMConverter/issues" target="_blank" rel="noopener noreffer">here</a>.</p>
+<p><a href="https://github.com/argorar/WebMConverter" target="_blank" rel="noopener noreffer">Repository</a></p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>El artículo fue actualizado el 2020-10-05</span>
+                <span>The article was updated on 2020-10-05</span>
             </div>
             <div class="post-info-license"></div>
         </div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/webm-converter/index.md" target="_blank">Leer Markdown</a>
+                            <a class="link-to-markdown" href="/webm-converter/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Compartir en Twitter" data-sharer="twitter" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys" data-hashtags="Software"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Facebook" data-sharer="facebook" data-url="https://argorar.github.io/webm-converter/" data-hashtag="Software"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en WhatsApp" data-sharer="whatsapp" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Line" data-sharer="line" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="Compartir en 微博" data-sharer="weibo" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Myspace" data-sharer="myspace" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Compartir en Blogger" data-sharer="blogger" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Evernote" data-sharer="evernote" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys" data-hashtags="Software"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://argorar.github.io/webm-converter/" data-hashtag="Software"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://argorar.github.io/webm-converter/" data-title="WebM for Lazys"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
@@ -167,7 +394,7 @@
     <div class="post-info-more">
         <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/software/">Software</a></section>
         <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">Regresar</a></span>&nbsp;|&nbsp;<span><a href="/">Inicio</a></span>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
@@ -175,14 +402,14 @@
 </div>
 <div id="comments"></div></article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span></div>
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span></div>
         </div>
     </footer></div>
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
                 <i class="fas fa-arrow-up fa-fw"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":10},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

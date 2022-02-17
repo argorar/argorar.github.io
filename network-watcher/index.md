@@ -1,8 +1,5 @@
 # Network Watcher
 
-
-<img src="https://argorar.github.io/Network-Watcher/img/network.png" alt="Logo" align="right"/>
-
 Multiplatform application that scans the local network identifying host and which ports it has open, also verifies services such as HTTP, SMTP and FTP.<!--more-->
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7c70ceeb054a478ab6dc0ed8b3329b05)](https://www.codacy.com/app/argorar/Network-Watcher?utm_source=github.com&utm_medium=referral&utm_content=argorar/Network-Watcher&utm_campaign=badger)

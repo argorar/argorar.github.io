@@ -1,20 +1,20 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Software - Etiqueta - Sebastián Λ</title>
+        <title>Software - Tag - Sebastián Λ</title>
         <link>https://argorar.github.io/tags/software/</link>
-        <description>Software - Etiqueta - Sebastián Λ</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Mon, 05 Oct 2020 12:01:53 -0500</lastBuildDate><atom:link href="https://argorar.github.io/tags/software/" rel="self" type="application/rss+xml" /><item>
+        <description>Software - Tag - Sebastián Λ</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Oct 2020 12:01:53 -0500</lastBuildDate><atom:link href="https://argorar.github.io/tags/software/" rel="self" type="application/rss+xml" /><item>
     <title>WebM for Lazys</title>
     <link>https://argorar.github.io/webm-converter/</link>
     <pubDate>Mon, 05 Oct 2020 12:01:53 -0500</pubDate>
-    <author>Autor</author>
+    <author>Author</author>
     <guid>https://argorar.github.io/webm-converter/</guid>
     <description><![CDATA[<p>A wrapper around ffmpeg and AviSynth made for converting videos to WebM without having to use the command line and Gfycat integration.</p>]]></description>
 </item><item>
     <title>Northwind Crud</title>
     <link>https://argorar.github.io/northwind-crud/</link>
     <pubDate>Sun, 17 May 2020 12:01:53 -0500</pubDate>
-    <author>Autor</author>
+    <author>Author</author>
     <guid>https://argorar.github.io/northwind-crud/</guid>
     <description><![CDATA[<p>CRUD for Northwind DB, Web API (ASP.NET) made on C# and Front End on Angular.<br>
 This project is a demonstration of several technologies.</p>]]></description>
@@ -22,16 +22,15 @@ This project is a demonstration of several technologies.</p>]]></description>
     <title>Cordic Graph</title>
     <link>https://argorar.github.io/cordic-graph/</link>
     <pubDate>Sun, 17 May 2020 11:35:23 -0500</pubDate>
-    <author>Autor</author>
+    <author>Author</author>
     <guid>https://argorar.github.io/cordic-graph/</guid>
     <description><![CDATA[What is the CORDIC algorithm? CORDIC (for Cordinate Rotation Digital Computer),also known as Volder&rsquo;s algorithm, is a simple and efficient algorithm to calculate hyperbolic and trigonometric functions, typically converging with one digit (or bit) per iteration. It is therefore also a prominent example of digit-by-digit algorithms. CORDIC and closely related methods known as pseudo-multiplication and pseudo-division or factor combining are commonly used when no hardware multiplier is available (e.g. in simple microcontrollers and FPGAs), as the only operations it requires are addition, subtraction, bitshift and table lookup.]]></description>
 </item><item>
     <title>Network Watcher</title>
     <link>https://argorar.github.io/network-watcher/</link>
     <pubDate>Sun, 17 May 2020 11:10:54 -0500</pubDate>
-    <author>Autor</author>
+    <author>Author</author>
     <guid>https://argorar.github.io/network-watcher/</guid>
-    <description><![CDATA[
-<p>Multiplatform application that scans the local network identifying host and which ports it has open, also verifies services such as HTTP, SMTP and FTP.</p>]]></description>
+    <description><![CDATA[<p>Multiplatform application that scans the local network identifying host and which ports it has open, also verifies services such as HTTP, SMTP and FTP.</p>]]></description>
 </item></channel>
 </rss>
